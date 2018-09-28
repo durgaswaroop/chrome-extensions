@@ -1,0 +1,12 @@
+{
+	"manifest_version" : 2,
+	"name" : "DSP Launcher",
+	"description" : "Quick Launch DSP's Websites",
+	"version" : "1.0.0",
+	"icons" : {"128" : "dsp_128x128.png"},
+	"browser_action": {
+		"default_icon" : "dsp_150x150.png",
+		"default_popup" : "popup.html"
+	},
+	"permissions" : ["activeTab"]
+}
